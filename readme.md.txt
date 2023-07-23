@@ -1,1 +1,0 @@
-there are study notes
