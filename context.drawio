@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2023-08-01T04:45:53.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="A0US5lyx1nPmVKdAuJS0" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="WErZeja0hPt3roUOOwUx">
+    <mxGraphModel dx="2938" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-1" value="并发控制" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-2" value="数据存储介质" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="5d9SHDIrZPaydkx5fOjV-3" target="5d9SHDIrZPaydkx5fOjV-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.558;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="5d9SHDIrZPaydkx5fOjV-3" target="5d9SHDIrZPaydkx5fOjV-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" parent="1" source="5d9SHDIrZPaydkx5fOjV-3" target="5d9SHDIrZPaydkx5fOjV-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-3" value="context" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5d9SHDIrZPaydkx5fOjV-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;type &lt;span style=&quot;color:#000000;&quot;&gt;Context &lt;/span&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;interface &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color:#286d73;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Deadline&lt;/span&gt;() (&lt;span style=&quot;color:#000000;&quot;&gt;deadline &lt;/span&gt;&lt;span style=&quot;color:#805900;&quot;&gt;time&lt;/span&gt;.&lt;span style=&quot;color:#336ecc;&quot;&gt;Time&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;ok &lt;/span&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;bool&lt;/span&gt;)&lt;br&gt;    &lt;span style=&quot;color:#286d73;&quot;&gt;&amp;nbsp;Done&lt;/span&gt;() &amp;lt;-&lt;span style=&quot;color:#0033b3;&quot;&gt;chan struct&lt;/span&gt;{}&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#286d73;&quot;&gt;Err&lt;/span&gt;() &lt;span style=&quot;color:#0033b3;&quot;&gt;error&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#286d73;&quot;&gt;Value&lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;key &lt;/span&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;any&lt;/span&gt;) &lt;span style=&quot;color:#0033b3;&quot;&gt;any&lt;br&gt;&lt;/span&gt;}&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="550" width="440" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
