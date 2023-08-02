@@ -1,0 +1,53 @@
+<mxfile host="Electron" modified="2023-08-01T06:07:57.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="Ga7t_9iP2Yhx0r36PR6a" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="vyTfsc4ZExLEv9mUGcNe">
+    <mxGraphModel dx="2284" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="8PCHkQpDkQ1QU76TVSa9-1" target="8PCHkQpDkQ1QU76TVSa9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-8" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="8PCHkQpDkQ1QU76TVSa9-1" target="8PCHkQpDkQ1QU76TVSa9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;func &lt;span style=&quot;color:#286d73;&quot;&gt;ListenAndServe&lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;addr &lt;/span&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;string&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;handler &lt;/span&gt;&lt;span style=&quot;color:#336ecc;&quot;&gt;Handler&lt;/span&gt;) &lt;span style=&quot;color:#0033b3;&quot;&gt;error &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;server &lt;/span&gt;:= &amp;amp;&lt;span style=&quot;color:#336ecc;&quot;&gt;Server&lt;/span&gt;{&lt;span style=&quot;color:#000000;&quot;&gt;Addr&lt;/span&gt;: &lt;span style=&quot;color:#000000;&quot;&gt;addr&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;Handler&lt;/span&gt;: &lt;span style=&quot;color:#000000;&quot;&gt;handler&lt;/span&gt;}&lt;br&gt;    &lt;span style=&quot;color:#0033b3;&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;server&lt;/span&gt;.&lt;span style=&quot;color:#36666b;&quot;&gt;ListenAndServe&lt;/span&gt;()&lt;br&gt;}&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="530" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="8PCHkQpDkQ1QU76TVSa9-2" target="8PCHkQpDkQ1QU76TVSa9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-2" value="Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-3" value="&lt;pre style=&quot;margin: 10px 8px; padding: 1em; outline: 0px; max-width: 100%; letter-spacing: 0.544px; color: rgb(88, 110, 117); background: rgb(253, 246, 227); font-size: 14px; text-align: left; line-height: 1.5; font-family: -apple-system-font, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; overflow-x: auto; border-radius: 8px; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&lt;code style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; line-height: 1.75; font-family: Menlo, &amp;quot;Operator Mono&amp;quot;, Consolas, Monaco, monospace; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;type&amp;nbsp;Server&amp;nbsp;struct&amp;nbsp;{&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;server&amp;nbsp;的地址&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Addr&amp;nbsp;string&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;路由处理器.&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Handler&amp;nbsp;Handler&amp;nbsp;//&amp;nbsp;handler&amp;nbsp;to&amp;nbsp;invoke,&amp;nbsp;http.DefaultServeMux&amp;nbsp;if&amp;nbsp;nil&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;...&lt;br style=&quot;margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;&quot;&gt;}&lt;/code&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="840" width="856" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="8PCHkQpDkQ1QU76TVSa9-7" target="8PCHkQpDkQ1QU76TVSa9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-11" value="每个协程真正调用对应handler的方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="8PCHkQpDkQ1QU76TVSa9-10">
+          <mxGeometry x="-0.0267" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;server.&lt;span style=&quot;color:#36666b;&quot;&gt;ListenAndServe&lt;/span&gt;()&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="780" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.476;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="8PCHkQpDkQ1QU76TVSa9-9" target="8PCHkQpDkQ1QU76TVSa9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-14" value="根据 http 请求 Request 中的请求路径 path 映射到对应的 handler 处理函数，对请求进行处理和响应." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="8PCHkQpDkQ1QU76TVSa9-13">
+          <mxGeometry x="-0.0442" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;serverHandler{&lt;span style=&quot;color:#008a91;&quot;&gt;c&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;server&lt;/span&gt;}.&lt;span style=&quot;color:#36666b;&quot;&gt;ServeHTTP&lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;w&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;w&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;req&lt;/span&gt;)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1000" width="436" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8PCHkQpDkQ1QU76TVSa9-12" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;handler.&lt;span style=&quot;color:#36666b;&quot;&gt;ServeHTTP&lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;rw&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;req&lt;/span&gt;)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1270" width="456" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
